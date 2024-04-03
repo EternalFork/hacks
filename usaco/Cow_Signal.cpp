@@ -17,7 +17,6 @@ int main() {
   freopen("cowsignal.out", "w", stdout);
   int M, N, K; //M is y_dim, N is x_dim, K is dilation_val
   cin >> M >> N >> K;
-  cout << endl;
   string lines = "";
   for (int i = 0; i < M; i++){
     string new_line = "";
